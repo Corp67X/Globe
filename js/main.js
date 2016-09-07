@@ -35,9 +35,6 @@ jQuery(document).ready(function($) {
 
     //Fullscreen Background Image Slideshow
     $.backstretch([
-        "assets/img/bg/01_home.jpg", 
-        "assets/img/bg/02_about.jpg", 
-        "assets/img/bg/03_facts.jpg",
         "images/01_slide.jpg",
         "images/02_slide.jpg",
         "images/03_slide.jpg"
@@ -335,7 +332,7 @@ jQuery(document).ready(function($) {
         var map = new google.maps.Map(mapElement, mapOptions);
 
         // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-        var image = '../../assets/img/map-marker.png';
+        var image = 'assets/img/map-marker.png';
         var myLatLng = new google.maps.LatLng(10.731688,122.550535,17);
         var beachMarker = new google.maps.Marker({
             position: myLatLng,
