@@ -33,6 +33,41 @@ jQuery(document).ready(function($) {
             });
         });
 
+    //Fullscreen Background Image Slideshow
+    $.backstretch([
+        "images/_slide_1.jpg",
+        "images/_slide_2.jpg",
+        "images/_slide_3.jpg"
+    ], {duration: 3000, fade: 750});
+
+
+    $('.carousel').carousel();
+
+
+    $(document).ready(function() {
+
+        $("#owl-home").owlCarousel({
+
+            navigation : true, // Show next and prev buttons
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            singleItem:true,
+            pagination: false,
+            navigationText: [
+              "<i class='fa fa-angle-double-left fa-2x'></i>",
+              "<i class='fa fa-angle-double-right fa-2x'></i>"
+            ],
+
+              // "singleItem:true" is a shortcut for:
+              // items : 1, 
+              // itemsDesktop : false,
+              // itemsDesktopSmall : false,
+              // itemsTablet: false,
+              // itemsMobile : false
+
+        });
+
+    });
 
     //Script Use for Review and Sccreenshots Slider 
     $(document).ready(function() {
@@ -297,7 +332,7 @@ jQuery(document).ready(function($) {
         var map = new google.maps.Map(mapElement, mapOptions);
 
         // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-        var image = "./assets/img/map-marker.png";
+        var image = '../../assets/img/map-marker.png';
         var myLatLng = new google.maps.LatLng(10.731688,122.550535,17);
         var beachMarker = new google.maps.Marker({
             position: myLatLng,
@@ -305,6 +340,7 @@ jQuery(document).ready(function($) {
             icon: image
         });
     };
+
 
     //Mailchimp Subscription Integration
     $('.mailchimp').ajaxChimp({

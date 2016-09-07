@@ -141,7 +141,7 @@ a.btn { margin: 0 10px 0 0 }
     position: absolute;
     left: 0%; /* centers the loading animation horizontally one the screen */
     top: 15%; /* centers the loading animation vertically one the screen */
-    background-image: url(../assets/img/loading.gif); /* path to your loading animation */
+    background-image: url(../../../assets/img/loading.gif); /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
     /*margin: -100px 0 0 -100px; */ /* is width and height divided by two */
@@ -204,7 +204,7 @@ a.navbar-brand.page-scroll { margin-top: 0px }
 }
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #da2d2d;
+    color: #fff;
     border-top: none;
     background-color: transparent;
 }
@@ -212,18 +212,91 @@ a.navbar-brand.page-scroll { margin-top: 0px }
 ****** Home Section *******
 **************************/
 #home {
-    padding-top: 150px;
     position: relative;
     z-index: 0;
     overflow: hidden;
-    background: url(../assets/img/bg/01_home.jpg) no-repeat center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     color: #ffffff;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    text-align: center;
+    height: 710px;
 }
+span.fa.fa-angle-double-left.fa-2x {
+background: #ffffff;
+padding: 5px 10px;
+color: rgb(104, 104, 104);
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+opacity: .70;
+}
+span.fa.fa-angle-double-right.fa-2x {
+padding: 5px 10px;
+background: red;
+color: #ffffff;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+opacity: .70;
+}
+
+span.fa.fa-angle-double-right.fa-2x:hover,
+span.fa.fa-angle-double-left.fa-2x:hover{
+    opacity: 1;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+#owl-home .item img{
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+#home .owl-buttons .owl-next {
+position: absolute;
+right: 0%;
+top: 30%;
+width: 45px;
+height: 45px;
+border-radius: 0;
+background: #ffffff;
+opacity: .7;
+margin-right: -1px;
+color: #000000;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+#home .owl-buttons .owl-prev {
+position: absolute;
+left: 0%;
+top: 30%;
+width: 45px;
+height: 45px;
+border-radius: 0;
+background: #ffffff;
+opacity: .7;
+margin-left: -1px;
+color: #000000;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+#home .owl-buttons .owl-next:hover,
+#home .owl-buttons .owl-prev:hover {
+opacity: 1;
+}
+
+#home .owl-buttons .fa{
+    padding-top: 6px;
+}
+
+#owl-home .item img:hover{
+    display: block;
+    width: auto;
+    height: auto;
+}
+
 .btn-learn {
     background-color: #da2d2d;
     padding: 15px 25px;
@@ -281,7 +354,8 @@ section.bigtriangle-bg {
     background: #000000;
 }
 /* Big Triangle */
-svg#bigTriangleColor { pointer-events: none }
+svg#bigTriangleColor { pointer-events: none;
+background: #ffffff; }
 #bigTriangleColor path {
     fill: #000000;
     stroke: #000000;
@@ -330,6 +404,7 @@ span.fa.fa-star { padding: 2px }
     z-index: 20;
     text-align: left;
     overflow: hidden;
+    margin-top: -5px;
 }
 .section-title {
     text-align: center;
@@ -443,7 +518,7 @@ i.fa.fa-2x {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    background: url(../assets/img/bg/03_facts.jpg) no-repeat center center;
+    background: url(../../../assets/img/bg/03_facts.jpg) no-repeat center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -466,14 +541,14 @@ i.fa.fa-2x {
     background-color: white;
 }
 #owl-screenshots { margin-top: 3.4rem }
-.item { margin: 1rem }
-.item img {
+#screenshots .item { margin: 1rem }
+#screenshots .item img {
     display: block;
     width: 100%;
     height: auto;
 }
-.item a:hover { cursor: url(../assets/img/cursor.png), auto }
-.item a:hover img {
+#screenshots .item a:hover { cursor: url(../../../assets/img/cursor.png), auto }
+#screenshots .item a:hover img {
     opacity: 0.8;
     -webkit-transform: scale(1.1); /* Safari and Chrome */
     -moz-transform: scale(1.1); /* Firefox */
@@ -495,7 +570,8 @@ i.fa.fa-2x {
     /* stroke-width: 2; */
 }
 /* Big Triangle */
-svg#bigTriangleInverted { pointer-events: none }
+svg#bigTriangleInverted { pointer-events: none;
+background: #ffffff; }
 #subscribe {
     padding-top: 2.4rem;
     padding-bottom: 6.5rem;
@@ -538,6 +614,7 @@ input.subscribe-input {
     width: 100%;
     height: 300px;
     margin-top: 0px;
+    background: #ffffff;
 }
 /**************************
 ********* Contact *********
@@ -546,6 +623,7 @@ input.subscribe-input {
     text-align: center;
     padding-top: 2.4rem;
     padding-bottom: 6.5rem;
+    background: #ffffff;
 }
 .form-control {
     display: block;
