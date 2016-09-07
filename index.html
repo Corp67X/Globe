@@ -33,7 +33,7 @@
         
         <!-- Favicons
         ================================================== -->
-        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
         <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
@@ -75,13 +75,15 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="assets/img/logo_white.png" alt=""></a> <!-- Your logo here -->
+                    <a class="navbar-brand page-scroll" href="#home"><img src="images/logo.png" alt=""></a> <!-- Your logo here -->
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="mobyapp">
+                  	<ul class="nav navbar-nav navbar-left">
+					</ul>
+					
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="page-scroll" href="#home">Home</a></li>
                         <li><a class="page-scroll" href="#features">Features</a></li>
                         <li><a class="page-scroll" href="#reviews">Reviews</a></li>
                         <li><a class="page-scroll" href="#overview">Overview</a></li>
@@ -100,7 +102,10 @@
 
         <section id="home">
             <div id="moby-slider" class="carousel slide" data-ride="carousel">
-                <a href="index.html"><img src="assets/img/logo_white.png" alt="logo"></a>
+            	<div class="text wow fadeInDown" data-wow-delay=".5s">
+          			<h1>Libro Dei Globi</h1>
+                </div>
+                <a href="#home"><img class="wow fadeInDown" data-wow-delay=".3s" src="images/icon.png" alt="logo"></a>
 
 
                 <!-- Wrapper for slides -->
@@ -111,10 +116,8 @@
                         <div class="container">
                             <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
                                 <div class="text space wow fadeInDown" data-wow-delay=".5s">
-                                    <h1>MobyApp is a Responsive and Modern Mobile App Landing Page.</h1>
+                                    <h2>Look at the world changing.</h2>
                                 </div>
-                                <a href="#overview" class="page-scroll btn btn-learn wow fadeInDown" data-wow-delay="1s">Learn More</a> <!-- Learn more button link-->
-                                <a href="#download" class="page-scroll btn btn-download wow fadeInDown" data-wow-delay="1.4s">Download Now</a> <!-- Download more button link-->
                             </div>
                         </div>
                     </div>
@@ -122,26 +125,25 @@
                     <div class="item">
                         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
                                 <div class="text space wow fadeInDown" data-wow-delay=".5s">
-                                    <h1>MobyApp is a Responsive and Modern Mobile App Landing Page.</h1>
+                                    <h2>History in globes.</h2>
                                 </div>
-                                <a href="#overview" class="page-scroll btn btn-learn wow fadeInDown" data-wow-delay="1s">Learn More</a> <!-- Learn more button link-->
-                                <a href="#download" class="page-scroll btn btn-download wow fadeInDown" data-wow-delay="1.4s">Download Now</a> <!-- Download more button link-->
                             </div>
                     </div>
 
                     <div class="item">
                         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
                                 <div class="text space wow fadeInDown" data-wow-delay=".5s">
-                                    <h1>MobyApp is a Responsive and Modern Mobile App Landing Page.</h1>
+                                    <h2>Title title title.</h2>
                                 </div>
-                                <a href="#overview" class="page-scroll btn btn-learn wow fadeInDown" data-wow-delay="1s">Learn More</a> <!-- Learn more button link-->
-                                <a href="#download" class="page-scroll btn btn-download wow fadeInDown" data-wow-delay="1.4s">Download Now</a> <!-- Download more button link-->
+                                <a href="#overview" class="page-scroll btn btn-learn wow fadeInDown" data-wow-delay="1s">Learn More</a>
+                                <a href="#download" class="page-scroll btn btn-download wow fadeInDown" data-wow-delay="1.4s">Download Now</a>
                             </div>
                     </div>
 
               </div>
 
               <!-- Controls -->
+              <!--
               <div class="space"></div>
               <a class="left controls" href="#moby-slider" role="button" data-slide="prev">
                 <span class="fa fa-angle-double-left fa-2x"></span>
@@ -150,6 +152,7 @@
                 <span class="fa fa-angle-double-right fa-2x"></span>
               </a>
             </div>
+            -->
         </section>
         
         <!--========================
