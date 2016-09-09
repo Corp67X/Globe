@@ -1,0 +1,6 @@
+section.review-bg {
+    padding: 60px;
+    height: 36rem;
+    background-image:url('../images/01_slide.jpg'); 
+    background-position: 50% 50%;
+}
