@@ -14,7 +14,7 @@
 
 
 .parallax-descr { 
-	box-shadow:0 0 0 1000px rgba(0, 0, 0, 0.7) inset;
+	box-shadow:0 0 0 1000px rgba(0, 0, 0, 0.6) inset;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
