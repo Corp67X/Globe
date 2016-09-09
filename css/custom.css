@@ -1,6 +1,26 @@
-section.review-bg {
-    padding: 60px;
+
+.parallax-reviews { 
     height: 36rem;
-    background-image:url('../images/01_slide.jpg'); 
-    background-position: 50% 50%;
+    box-shadow:0 0 0 18rem rgba(0, 0, 0, 0.7) inset;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-reviews {
+  	background-image:url('../images/back-reviews.jpg'); 
+}
+
+
+.parallax-descr { 
+	box-shadow:0 0 0 1000px rgba(0, 0, 0, 0.7) inset;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-descr {
+  	background-image:url('../images/back-descr.jpg'); 
 }

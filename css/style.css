@@ -429,12 +429,10 @@ span.fa.fa-star { padding: 2px }
     margin: 0px;
     padding-top: 3.25rem;
     padding-bottom: 3.25rem;
-    background: white;
     display: block;
     z-index: 20;
     text-align: left;
     overflow: hidden;
-    background: #000000;
     color: #ffffff;
 }
 .about-content { padding-top: 3rem }
