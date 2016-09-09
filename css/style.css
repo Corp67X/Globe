@@ -509,6 +509,22 @@ i.fa.fa-2x {
     vertical-align: middle;
     padding: 0 5px;
 }
+
+
+#team {
+    margin: 0px;
+    padding-top: 4.25rem;
+    padding-bottom: 3.25rem;
+    background: white;
+    position: relative;
+    display: block;
+    z-index: 20;
+    text-align: center;
+}
+i.fa.fa-2x {
+    vertical-align: middle;
+    padding: 0 5px;
+}
 /**************************
 ******* Facts Counter *****
 **************************/
@@ -516,7 +532,8 @@ i.fa.fa-2x {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    background: url(../assets/img/bg/03_facts.jpg) no-repeat center center;
+    background: url('../images/back-counter.jpg') no-repeat center center;
+    box-shadow:0 0 0 1000px rgba(0, 0, 0, 0.7) inset;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -559,69 +576,12 @@ i.fa.fa-2x {
     -o-transition: all 1s ease; /* Opera */
     transition: all 1s ease;
 }
-/**************************
-******* Subscription ******
-**************************/
-#bigTriangleInverted path {
-    fill: #000000;
-    /* stroke: #000000; */
-    /* stroke-width: 2; */
-}
-/* Big Triangle */
-svg#bigTriangleInverted { pointer-events: none;
-background: #ffffff; }
-#subscribe {
-    padding-top: 2.4rem;
-    padding-bottom: 6.5rem;
-    margin-top: -7px;
-    position: relative;
-    display: block;
-    z-index: 100;
-    text-align: center;
-    background: #000000;
-    color: #ffffff;
-}
-input.subscribe-input {
-    background: transparent;
-    padding: 11px 20px;
-    width: 300px;
-    font-weight: 100;
-    border-radius: 5px;
-}
-.subscribe-input:focus { outline: 0 }
-.subscribe-submit {
-    padding: 12px 20px;
-    background: #da2d2d;
-    color: #ffffff;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    -webkit-font-smoothing: antialiased;
-}
-.subscribe-submit:hover {
-    color: #ffffff;
-    background-color: #C13030;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    transition: all .5s;
-}
-/**************************
-******* Map Section *******
-**************************/
-#map {
-    width: 100%;
-    height: 300px;
-    margin-top: 0px;
-    background: #ffffff;
-}
-/**************************
-********* Contact *********
-**************************/
+
 #contact {
     text-align: center;
     padding-top: 2.4rem;
     padding-bottom: 6.5rem;
-    background: #ffffff;
+    color: #ffffff;
 }
 .form-control {
     display: block;
@@ -630,7 +590,7 @@ input.subscribe-input {
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    background-color: rgba(255, 255, 255, 0);
+/*    background-color: rgba(255, 255, 255, 0);*/
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -646,43 +606,43 @@ section#contact .form-group textarea { padding: 20px }
 section#contact .form-group input.form-control { height: auto }
 section#contact .form-group textarea.form-control { height: 236px }
 section#contact .form-control:focus {
-    border-color: #da2d2d;
+    border-color: #FFFFFF;
     box-shadow: none;
 }
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-weight: 700;
-    color: #bbb;
+    color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-weight: 700;
-    color: #bbb;
+    color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-weight: 700;
-    color: #bbb;
+    color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-weight: 700;
-    color: #bbb;
+    color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 section#contact .text-danger {
-    color: #da2d2d;
+    color: #FFFFFF;
     font-size: 0.75rem;
 }
 .alert-danger {
-    color: #da2d2d;
+    color: #FFFFFF;
     background-color: rgba(242, 222, 222, 0);
     letter-spacing: 1px;
     font-weight: lighter;
@@ -690,7 +650,7 @@ section#contact .text-danger {
     border-radius: 0px;
 }
 #contact .close {
-    color: #da2d2d;
+    color: #FFFFFF;
     opacity: 0.5;
 }
 .alert-success {
