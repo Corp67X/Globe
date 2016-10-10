@@ -1,6 +1,7 @@
 
 .parallax-reviews { 
-    height: 36rem;
+/*height: 36rem; включить при добавлении отзывов*/
+    height: 12rem;
     box-shadow:0 0 0 18rem rgba(0, 0, 0, 0.7) inset;
     background-attachment: fixed;
     background-position: center;
