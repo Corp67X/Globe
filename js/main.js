@@ -36,8 +36,7 @@ jQuery(document).ready(function($) {
     //Fullscreen Background Image Slideshow
     $.backstretch([
         "images/01_slide.jpg",
-        "images/02_slide.jpg",
-        "images/03_slide.jpg"
+        "images/02_slide.jpg"
     ], {duration: 3000, fade: 750});
 
 
